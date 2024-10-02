@@ -4,6 +4,7 @@ import './Statistics.css';
 const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
+      <h3>Exercitiu 2:</h3>
       {title && <h2 className="title">{title}</h2>}
 
       <ul className="stat-list">

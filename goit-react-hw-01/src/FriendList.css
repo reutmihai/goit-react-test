@@ -1,0 +1,17 @@
+
+.friend-item {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.friend-name, .status {
+    display: flex;
+    align-items: center;
+}
