@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .profile {
   max-width: 300px;
   margin: 0 auto;
@@ -8,9 +14,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-p {
-    margin: 10px;
-}
 
 .description {
   margin-bottom: 20px;
@@ -30,8 +33,7 @@ p {
 .tag, .location {
   color: #777;
   font-size: 0.9em;
-  padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 
 .stats {
